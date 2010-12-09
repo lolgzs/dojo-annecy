@@ -1,0 +1,6 @@
+Code du coding-dojo sur PHPUnit
+
+Pour lancer les tests
+- installer PHPUnit http://www.phpunit.de/manual/3.5/en/phpunit-book.html#installation
+- aller dans tests/
+- taper phpunit
