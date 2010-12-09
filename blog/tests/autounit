@@ -1,0 +1,7 @@
+watch('.*Test\.php') do |md|
+	system("XDEBUG_CONFIG='idekey=emacs' phpunit")
+end
+
+watch('../library/*/(.*)\.php') do |md|
+	system("XDEBUG_CONFIG='idekey=emacs' phpunit")
+end
